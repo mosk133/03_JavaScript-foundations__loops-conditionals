@@ -13,7 +13,7 @@ let number = 3;
 if (number%2==0){
     console.log("Number "+number+" is even");
 }else{
-    console.log("Number "+number+" is odd")
+    console.log("Number "+number+" is odd");
 }
 
 number = 4;
@@ -21,5 +21,5 @@ number = 4;
 if (number%2==0){
     console.log("Number "+number+" is even");
 }else{
-    console.log("Number "+number+" is odd")
+    console.log("Number "+number+" is odd");
 }

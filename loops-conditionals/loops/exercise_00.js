@@ -5,15 +5,15 @@
 */
 
 // 1.
-for (let num = 10; num < 41; num ++){
+for (let num = 10; num <= 40; num ++){
     if (num %2 == 0){
-        console.log(num)
+        console.log(num);
     }
 }
 
 // 2.
-for (let num = 10; num < 41; num ++){
-    if (num %2 != 0){
-        console.log(num)
+for (let num = 10; num <= 40; num ++){
+    if (num %2 !== 0){
+        console.log(num);
     }
 }
