@@ -28,7 +28,6 @@ if (animal === "cat"){
 console.log("--- Animal check complete ---");
 
 // 8.
-
 animal = "dog";
 
 if (animal === "cat"){
