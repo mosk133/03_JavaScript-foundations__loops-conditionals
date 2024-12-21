@@ -16,13 +16,17 @@ console.log("--- Animal Checker Program ---");
 let animal = "cat";
 
 // 3, 4, 5 and 6.
-if (animal === "cat"){
+if (animal === "cat") {
     console.log("Meow!");
-}else if(animal === "dog"){
-    console.log("Woof!");
-}else{
-    console.log("Must be an alien");
+    return;
 }
+
+if (animal === "dog") {
+    console.log("Woof!");
+    return;
+}
+
+console.log("Must be an alien");
 
 // 7.
 console.log("--- Animal check complete ---");
